@@ -108,5 +108,9 @@ now_building = [
 </p>
 
 <p align="center">
+  📧 <code>y1692543@gmail.com</code> · 📱 010-2677-2112 · 📍 Seoul
+</p>
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9184d9,100:161826&height=110&section=footer" alt="footer" />
 </p>
