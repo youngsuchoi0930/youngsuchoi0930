@@ -108,7 +108,7 @@ now_building = [
 </p>
 
 <p align="center">
-  📧 <code>y1692543@gmail.com</code> · 📱 010-2677-2112 · 📍 Seoul
+  📧 <code>y1692543@gmail.com</code> · 📍 Seoul
 </p>
 
 <p align="center">
