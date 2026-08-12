@@ -3,97 +3,100 @@
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=4F8CC9&center=true&vCenter=true&width=750&lines=ESTsoft+AI+Bootcamp+Trainee;PyTorch+%7C+Transformer+%7C+LLM+%7C+RAG;MediaPipe+%7C+Multimodal+%7C+AI+Human;Data%EB%A1%9C+%EC%84%B8%EC%83%81%EC%9D%84+%EC%9D%BD%EB%8A%94+ML+Engineer%EB%A5%BC+%EA%BF%88%EA%BE%B8%EB%A9%B0!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=9184D9&center=true&vCenter=true&width=750&lines=AI+Application+Developer;LLM+%7C+RAG+%7C+AI+Service;KDT+Team+Project+Grand+Prize+x2;Backend+to+Frontend%2C+Mobile+to+Deploy" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/youngsuchoi0930"><img src="https://img.shields.io/badge/Focus-LLM%20%C2%B7%20RAG%20%C2%B7%20Multimodal-4F8CC9?style=flat-square" /></a>
-  <a href="https://github.com/youngsuchoi0930"><img src="https://img.shields.io/badge/Status-Building%20AI%20Portfolio-brightgreen?style=flat-square" /></a>
-  <img src="https://komarev.com/ghpvc/?username=youngsuchoi0930&style=flat-square&color=4F8CC9" />
+  <a href="https://youngsu-resume.vercel.app"><img src="https://img.shields.io/badge/Resume-youngsu--resume.vercel.app-9184d9?style=flat-square" /></a>
+  <a href="https://github.com/youngsuchoi0930"><img src="https://img.shields.io/badge/Focus-LLM%20%C2%B7%20RAG%20%C2%B7%20AI%20Service-9184d9?style=flat-square" /></a>
+  <img src="https://komarev.com/ghpvc/?username=youngsuchoi0930&style=flat-square&color=9184d9" />
 </p>
 
 ---
 
 ### 🚀 About Me
 
-- 🎓 **ESTsoft AI 부트캠프**에서 AI / 데이터 사이언스를 공부하고 있습니다
-- 🧠 **LLM · RAG · 멀티모달 · AI Human** 을 중심으로 직접 만들며 배우고 있어요
-- 🔬 단순 모델 비교보다 **실패 분석(failure analysis)** 과 평가 설계에 관심이 많습니다
-- 🤝 6인 팀 프로젝트에서 **데이터 전처리 리드**를 맡아 파이프라인을 설계했습니다
+- 🎓 **이스트소프트 KDT AI 휴먼과정** 수료 (2026.03 – 07) · 팀 프로젝트 **대상 2회** 수상
+- 🧠 RAG와 LLM으로 **실제 동작하는 AI 서비스**를 만듭니다
+- 🔬 Recall@k · MRR · LLM-as-judge 같은 지표로 성능을 측정하고, 실패 원인을 분석해 다시 측정합니다
+- 🔗 FastAPI 백엔드부터 React 프론트엔드, Capacitor 모바일, GCP·Docker 배포까지 직접 연결합니다
+- 📄 웹 이력서: **[youngsu-resume.vercel.app](https://youngsu-resume.vercel.app)**
 
-> 🎯 *"되는 걸 만드는 것"보다 "왜 안 되는지 설명할 수 있는 것"을 목표로 합니다.*
-
----
-
-### 🛠️ Tech Stack
-
-#### 🐍 Language
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-</p>
-
-#### 🤖 LLM · RAG · NLP
-<p>
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG-4F8CC9?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/LoRA%20%2F%20QLoRA-EE4C2C?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/PEFT-FF6F00?style=for-the-badge&logoColor=white" />
-</p>
-
-#### 🧠 Deep Learning & Multimodal
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Transformer-5C3EE8?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/STT%20%2F%20TTS-44A833?style=for-the-badge&logoColor=white" />
-</p>
-
-#### 📊 Data Analysis & Visualization
-<p>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
-</p>
-
-#### 🧪 Environment & Tools
-<p>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
+> 🎯 *"돌아가는 데모"를 넘어, 왜 잘되는지 설명할 수 있는 서비스를 만듭니다.*
 
 ---
 
 ### 💡 Featured Projects
 
-> 🔧 아래 링크는 실제 레포 주소로 교체해서 사용하세요.
-
-| 프로젝트 | 한 줄 소개 | 핵심 기술 |
-|---|---|---|
-| 🤟 **피어나 (Pieona)** | 공공 창구용 **AI 수어 통역** 서비스 (MediaPipe 랜드마크 → 인식 모델) | `MediaPipe` `CNN-GRU` `PyTorch` |
-| 🎙️ **매뉴얼 음성 도우미** | 가전 매뉴얼을 위한 **핸즈프리 RAG** (STT → Hybrid RAG → TTS) + 오프라인 평가 모듈 | `STT/TTS` `Hybrid RAG` `Evaluation` |
-| ♻️ **재활용 분류 앱** | 모바일 온디바이스 분리수거 분류기 | `MobileNetV2` `TFLite` `Flutter` |
-| ⚾ **야구볼래** | 야구 초보자를 위한 어플 |`LLM/RAG` `React` `Fast-API`|
+| 프로젝트 | 한 줄 소개 | 담당 | 핵심 기술 |
+|---|---|---|---|
+| 🧑‍💼 **[Jobiverse](https://github.com/youngsuchoi0930/job_simulator)** 🏆 KDT 최종 프로젝트 **대상** | 실시간 AI 아바타 직무 상담 + 2D 직무 체험 시뮬레이터 (RAG Faithfulness **0.967**) | LLM 프롬프팅 · 미니게임 기획 · RAG 구축 | `FastAPI` `pgvector` `React 19` `Gemini` |
+| ⚾ **[야구 볼래](https://github.com/youngsuchoi0930/KBO_coach)** 🏆 KDT 2차 프로젝트 **대상** | 팀별 페르소나 챗봇으로 배우는 KBO 입문 크로스플랫폼 앱 (웹·Android·iOS) | 프론트엔드 · 3D 캐릭터 · UI/UX 디자인 | `React 19` `Capacitor` `three.js` |
+| 🤟 **[피어나](https://github.com/youngsuchoi0930/KSL-Project)** | 주민센터 창구용 수어 양방향 통역 AI 어시스턴트 (단어 인식 Top-1 **97.53%**) | FE · DB · 배포 | `React` `MediaPipe` `WebRTC` `GCP` |
 
 <details>
 <summary>📂 더 많은 작업 보기</summary>
 
+- **매뉴얼 음성 도우미** — 가전 매뉴얼 핸즈프리 안내 (STT → Hybrid RAG → TTS) + 오프라인 평가 모듈
 - **Transformer from scratch** — PyTorch로 어텐션부터 직접 구현
-- **KSL 인식 팀 프로젝트** — 6인 팀 전처리 리드, MP4 → NPZ(225 features) 표준 파이프라인 설계, 클래스 불균형(magnet class) 진단
+- **재활용 분류 앱** — MobileNetV2 · TFLite · Flutter 온디바이스 분류기
 - **한국어 TTS / Voice Cloning 탐색** — XTTS-v2 · OpenVoice V2 · MeloTTS 비교
 - **음성 분류 (Dacon)** — MFCC · Mel-spectrogram 기반 오디오 전처리
 
 </details>
+
+---
+
+### 🛠️ Tech Stack
+
+#### 🤖 AI · LLM · RAG
+<p>
+  <img src="https://img.shields.io/badge/RAG%20(Hybrid%C2%B7RRF)-9184d9?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLM--as--judge-796cbf?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+</p>
+
+#### 🧩 Models · Voice
+<p>
+  <img src="https://img.shields.io/badge/Gemini-4E88F4?style=for-the-badge&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure%20Speech-0078D4?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/ElevenLabs-181717?style=for-the-badge&logoColor=white" />
+</p>
+
+#### ⚙️ Backend
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSocket%20%2F%20SSE-796cbf?style=for-the-badge&logoColor=white" />
+</p>
+
+#### 🖥️ Frontend · Mobile
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React%2018%C2%B719-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
+</p>
+
+#### 🗄️ Data · Infra
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+</p>
 
 ---
 
@@ -114,31 +117,30 @@
 
 ---
 
-### 📚 현재 학습 중
+### 📚 Now
 
 ```python
 class YoungsuChoi:
     def __init__(self):
-        self.name         = "최영수"
-        self.role         = "AI / ML Engineer (in training)"
-        self.education    = "ESTsoft AI Bootcamp"
-        self.languages    = ["Python", "SQL", "Dart"]
-        self.focus_areas  = ["LLM", "RAG", "Multimodal", "AI Human"]
+        self.name        = "최영수"
+        self.role        = "AI Application Developer"
+        self.education   = "이스트소프트 KDT AI 휴먼과정 수료 (2026)"
+        self.awards      = ["KDT 최종 프로젝트 대상 (Jobiverse)", "KDT 2차 프로젝트 대상 (야구 볼래)"]
+        self.focus_areas = ["LLM", "RAG", "AI Service"]
 
-    def now_studying(self):
+    def now_building(self):
         return [
-            "RAG 파이프라인 설계 & 실패 분석 (Naive → Hybrid → Agentic)",
+            "RAG 파이프라인 설계와 실패 분석 (Naive → Hybrid → Agentic)",
             "PyTorch로 Transformer 구조 직접 구현",
             "LoRA / QLoRA 로 LLM 파인튜닝",
             "MediaPipe 기반 멀티모달 (수어 · 제스처) 인식",
-            "STT → RAG → TTS · 아바타/립싱크 AI Human",
         ]
 
     def philosophy(self):
-        return "왜 안 되는지 설명할 수 있는 엔지니어가 되자"
+        return "왜 잘되는지 설명할 수 있는 서비스를 만들자"
 
     def say_hi(self):
-        print("방문해 주셔서 감사합니다! 함께 성장해요 🚀")
+        print("방문해 주셔서 감사합니다! 🚀")
 ```
 
 ---
@@ -146,7 +148,10 @@ class YoungsuChoi:
 ### 📫 Connect with Me
 
 <p align="center">
-  <a href="mailto:y1692543@google.com">
+  <a href="https://youngsu-resume.vercel.app">
+    <img src="https://img.shields.io/badge/Resume-9184d9?style=for-the-badge&logoColor=white" />
+  </a>
+  <a href="mailto:y1692543@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/youngsuchoi0930">
