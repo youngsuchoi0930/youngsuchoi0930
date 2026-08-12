@@ -1,13 +1,22 @@
-<h1 align="center">
-  안녕하세요, 최영수입니다 👋
-</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:161826,50:5d5294,100:9184d9&height=190&section=header&text=%EC%B5%9C%EC%98%81%EC%88%98&fontColor=ffffff&fontSize=54&fontAlignY=38&desc=AI%20Application%20Developer&descAlignY=58&descSize=17" alt="최영수 — AI Application Developer" />
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=9184D9&center=true&vCenter=true&width=750&lines=AI+Application+Developer;LLM+%7C+RAG+%7C+AI+Service;KDT+Team+Project+Grand+Prize+x2;Backend+to+Frontend%2C+Mobile+to+Deploy" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="https://youngsu-resume.vercel.app"><img src="https://img.shields.io/badge/Resume-youngsu--resume.vercel.app-9184d9?style=flat-square" /></a>
+  <a href="https://youngsu-resume.vercel.app">
+    <img src="https://img.shields.io/badge/📄_웹_이력서_보러가기-9184d9?style=for-the-badge&labelColor=161826&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://youngsu-resume.vercel.app/choi-youngsu-resume.pdf">
+    <img src="https://img.shields.io/badge/⬇️_이력서_PDF_다운로드-5d5294?style=for-the-badge&labelColor=161826" />
+  </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/youngsuchoi0930"><img src="https://img.shields.io/badge/Focus-LLM%20%C2%B7%20RAG%20%C2%B7%20AI%20Service-9184d9?style=flat-square" /></a>
   <img src="https://komarev.com/ghpvc/?username=youngsuchoi0930&style=flat-square&color=9184d9" />
 </p>
@@ -20,7 +29,6 @@
 - 🧠 RAG와 LLM으로 **실제 동작하는 AI 서비스**를 만듭니다
 - 🔬 Recall@k · MRR · LLM-as-judge 같은 지표로 성능을 측정하고, 실패 원인을 분석해 다시 측정합니다
 - 🔗 FastAPI 백엔드부터 React 프론트엔드, Capacitor 모바일, GCP·Docker 배포까지 직접 연결합니다
-- 📄 웹 이력서: **[youngsu-resume.vercel.app](https://youngsu-resume.vercel.app)**
 
 > 🎯 *"돌아가는 데모"를 넘어, 왜 잘되는지 설명할 수 있는 서비스를 만듭니다.*
 
@@ -49,53 +57,30 @@
 
 ### 🛠️ Tech Stack
 
-#### 🤖 AI · LLM · RAG
-<p>
-  <img src="https://img.shields.io/badge/RAG%20(Hybrid%C2%B7RRF)-9184d9?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/LLM--as--judge-796cbf?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,fastapi,flask,ts,react,tailwind,threejs,docker,gcp,postgres,mongodb,redis,vercel,githubactions,pytorch,git&perline=8" alt="Tech Stack" />
 </p>
 
-#### 🧩 Models · Voice
-<p>
-  <img src="https://img.shields.io/badge/Gemini-4E88F4?style=for-the-badge&logo=googlegemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure%20Speech-0078D4?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/ElevenLabs-181717?style=for-the-badge&logoColor=white" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Gemini-4E88F4?style=flat-square&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure%20Speech-0078D4?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/ElevenLabs-181717?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white" />
 </p>
 
-#### ⚙️ Backend
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebSocket%20%2F%20SSE-796cbf?style=for-the-badge&logoColor=white" />
-</p>
+---
 
-#### 🖥️ Frontend · Mobile
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React%2018%C2%B719-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
-</p>
+### 🐍 Contribution Snake
 
-#### 🗄️ Data · Infra
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/youngsuchoi0930/youngsuchoi0930/output/github-snake-dark.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/youngsuchoi0930/youngsuchoi0930/output/github-snake.svg" />
+  </picture>
 </p>
 
 ---
@@ -108,11 +93,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=youngsuchoi0930&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=youngsuchoi0930&theme=tokyonight&no-frame=true&row=1&column=7" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=youngsuchoi0930&bg_color=161826&color=9184d9&line=9184d9&point=d2cefd&area=true&hide_border=true" alt="Contribution Graph" />
 </p>
 
 ---
@@ -165,8 +146,6 @@ class YoungsuChoi:
   </a>
 </p>
 
----
-
 <p align="center">
-  <i>⭐️ From <a href="https://github.com/youngsuchoi0930">youngsuchoi0930</a> — Thanks for stopping by!</i>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9184d9,100:161826&height=110&section=footer" alt="footer" />
 </p>
