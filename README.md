@@ -8,17 +8,12 @@
 
 <p align="center">
   <a href="https://youngsu-resume.vercel.app">
-    <img src="https://img.shields.io/badge/📄_웹_이력서_보러가기-9184d9?style=for-the-badge&labelColor=161826&logoColor=white" />
+    <img src="https://img.shields.io/badge/웹_이력서_보러가기-9184d9?style=for-the-badge&labelColor=161826" />
   </a>
   &nbsp;
   <a href="https://youngsu-resume.vercel.app/choi-youngsu-resume.pdf">
-    <img src="https://img.shields.io/badge/⬇️_이력서_PDF_다운로드-5d5294?style=for-the-badge&labelColor=161826" />
+    <img src="https://img.shields.io/badge/이력서_PDF_다운로드-5d5294?style=for-the-badge&labelColor=161826" />
   </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/youngsuchoi0930"><img src="https://img.shields.io/badge/Focus-LLM%20%C2%B7%20RAG%20%C2%B7%20AI%20Service-9184d9?style=flat-square" /></a>
-  <img src="https://komarev.com/ghpvc/?username=youngsuchoi0930&style=flat-square&color=9184d9" />
 </p>
 
 ---
@@ -45,9 +40,9 @@
 <details>
 <summary>📂 더 많은 작업 보기</summary>
 
-- **매뉴얼 음성 도우미** — 가전 매뉴얼 핸즈프리 안내 (STT → Hybrid RAG → TTS) + 오프라인 평가 모듈
+- **[매뉴얼 음성 도우미](https://github.com/youngsuchoi0930/manualgo)** — 가전 매뉴얼 핸즈프리 안내 (STT → Hybrid RAG → TTS) + 오프라인 평가 모듈
 - **Transformer from scratch** — PyTorch로 어텐션부터 직접 구현
-- **재활용 분류 앱** — MobileNetV2 · TFLite · Flutter 온디바이스 분류기
+- **[재활용 분류 앱](https://github.com/youngsuchoi0930/recycle_app)** — MobileNetV2 · TFLite · Flutter 온디바이스 분류기
 - **한국어 TTS / Voice Cloning 탐색** — XTTS-v2 · OpenVoice V2 · MeloTTS 비교
 - **음성 분류 (Dacon)** — MFCC · Mel-spectrogram 기반 오디오 전처리
 
@@ -85,43 +80,15 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=youngsuchoi0930&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=youngsuchoi0930&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=youngsuchoi0930&bg_color=161826&color=9184d9&line=9184d9&point=d2cefd&area=true&hide_border=true" alt="Contribution Graph" />
-</p>
-
----
-
-### 📚 Now
+### 🌱 Now Building
 
 ```python
-class YoungsuChoi:
-    def __init__(self):
-        self.name        = "최영수"
-        self.role        = "AI Application Developer"
-        self.education   = "이스트소프트 KDT AI 휴먼과정 수료 (2026)"
-        self.awards      = ["KDT 최종 프로젝트 대상 (Jobiverse)", "KDT 2차 프로젝트 대상 (야구 볼래)"]
-        self.focus_areas = ["LLM", "RAG", "AI Service"]
-
-    def now_building(self):
-        return [
-            "RAG 파이프라인 설계와 실패 분석 (Naive → Hybrid → Agentic)",
-            "PyTorch로 Transformer 구조 직접 구현",
-            "LoRA / QLoRA 로 LLM 파인튜닝",
-            "MediaPipe 기반 멀티모달 (수어 · 제스처) 인식",
-        ]
-
-    def philosophy(self):
-        return "왜 잘되는지 설명할 수 있는 서비스를 만들자"
-
-    def say_hi(self):
-        print("방문해 주셔서 감사합니다! 🚀")
+now_building = [
+    "RAG 파이프라인 설계와 실패 분석 (Naive → Hybrid → Agentic)",
+    "PyTorch로 Transformer 구조 직접 구현",
+    "LoRA / QLoRA 로 LLM 파인튜닝",
+    "MediaPipe 기반 멀티모달 (수어 · 제스처) 인식",
+]
 ```
 
 ---
@@ -137,12 +104,6 @@ class YoungsuChoi:
   </a>
   <a href="https://www.linkedin.com/in/youngsuchoi0930">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/youngsuchoi0930">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.kaggle.com/youngsuchoi0930">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
   </a>
 </p>
 
