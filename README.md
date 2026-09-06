@@ -33,6 +33,7 @@
 
 | 프로젝트 | 한 줄 소개 | 담당 | 핵심 기술 |
 |---|---|---|---|
+| 🎙️ **[ManualGo](https://github.com/youngsuchoi0930/manualgo)** | 질문을 말하면 근거 페이지와 함께 답하는 가전 매뉴얼 음성 도우미 | 개인 · 설계부터 평가까지 | `FastAPI` `Hybrid RAG` `ONNX` `Azure Speech` |
 | 🧑‍💼 **[Jobiverse](https://github.com/youngsuchoi0930/job_simulator)** 🏆 KDT 최종 프로젝트 **대상** | 실시간 AI 아바타 직무 상담 + 2D 직무 체험 시뮬레이터 (RAG Faithfulness **0.967**) | LLM 프롬프팅 · 미니게임 기획 · RAG 구축 | `FastAPI` `pgvector` `React 19` `Gemini` |
 | ⚾ **[야구 볼래](https://github.com/youngsuchoi0930/KBO_coach)** 🏆 KDT 2차 프로젝트 **대상** | 팀별 페르소나 챗봇으로 배우는 KBO 입문 크로스플랫폼 앱 (웹·Android·iOS) | 프론트엔드 · 3D 캐릭터 · UI/UX 디자인 | `React 19` `Capacitor` `three.js` |
 | 🤟 **[피어나](https://github.com/youngsuchoi0930/KSL-Project)** | 주민센터 창구용 수어 양방향 통역 AI 어시스턴트 (단어 인식 Top-1 **97.53%**) | FE · DB · 배포 | `React` `MediaPipe` `WebRTC` `GCP` |
@@ -40,7 +41,6 @@
 <details>
 <summary>📂 더 많은 작업 보기</summary>
 
-- **[매뉴얼 음성 도우미](https://github.com/youngsuchoi0930/manualgo)** — 가전 매뉴얼 핸즈프리 안내 (STT → Hybrid RAG → TTS) + 오프라인 평가 모듈
 - **Transformer from scratch** — PyTorch로 어텐션부터 직접 구현
 - **[재활용 분류 앱](https://github.com/youngsuchoi0930/recycle_app)** — MobileNetV2 · TFLite · Flutter 온디바이스 분류기
 - **한국어 TTS / Voice Cloning 탐색** — XTTS-v2 · OpenVoice V2 · MeloTTS 비교
