@@ -1,178 +1,146 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:161826,50:5d5294,100:9184d9&height=190&section=header&text=%EC%B5%9C%EC%98%81%EC%88%98&fontColor=ffffff&fontSize=54&fontAlignY=38&desc=AI%20Application%20Developer&descAlignY=58&descSize=17" alt="최영수 — AI Application Developer" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=9184D9&center=true&vCenter=true&width=750&lines=AI+Application+Developer;LLM+%7C+RAG+%7C+AI+Service;KDT+Team+Project+Grand+Prize+x2;Backend+to+Frontend%2C+Mobile+to+Deploy" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <a href="https://youngsu-resume.vercel.app">
-    <img src="https://img.shields.io/badge/웹_이력서_보러가기-9184d9?style=for-the-badge&labelColor=161826" />
-  </a>
-  &nbsp;
-  <a href="https://youngsu-resume.vercel.app/choi-youngsu-resume.pdf?v=20261008-github-sync">
-    <img src="https://img.shields.io/badge/이력서_PDF_다운로드-5d5294?style=for-the-badge&labelColor=161826" />
-  </a>
-</p>
-
----
-
-### 🚀 About Me
-
-- 🎓 **이스트소프트 KDT AI 휴먼과정** 수료 (2026.03 – 07) · 과정 내 프로젝트 **대상 2회 · 각각 6개 팀 중 1위**
-- 🤝 **2년 7개월의 기술영업 경험** — 고객 요구 분석·사양 제안·납품·사후관리 경험을 서비스 개발로 연결합니다
-- 🧠 RAG·문서 추출과 규칙·ML 판단을 연결해 **근거를 확인할 수 있는 AI 서비스**를 만듭니다
-- 🔬 Recall@k · MRR · LLM-as-judge 같은 지표로 성능을 측정하고, 실패 원인을 분석해 다시 측정합니다
-- 🔗 FastAPI 백엔드부터 React 프론트엔드, Capacitor 모바일, GCP·Docker 배포까지 직접 연결합니다
-
-> 🎯 *현장의 요구를 이해하고, AI 서비스의 구현과 배포까지 연결합니다.*
-
----
-
-### 💡 Featured Projects
-
-| 프로젝트 | 한 줄 소개 | 담당 | 프로젝트 기술 |
-|---|---|---|---|
-| 🧑‍💼 **[Jobiverse](https://github.com/youngsuchoi0930/job_simulator)** 🏆 KDT 최종 프로젝트 **대상** | 실시간 AI 아바타 직무 상담 + 2D 직무 체험 시뮬레이터 | AI 코치·NPC 프롬프트 · 미니게임 구현 · RAG·운영 | `FastAPI` `pgvector` `React 19` `Gemini` |
-| ⚾ **[야구 볼래](https://github.com/youngsuchoi0930/KBO_coach)** 🏆 KDT 2차 프로젝트 **대상** | 팀별 페르소나 챗봇으로 배우는 KBO 입문 크로스플랫폼 앱 | 공통 UI · 3D 캐릭터 · UI/UX 디자인 | `React 19` `Capacitor` `three.js` |
-| 🤟 **[피어나](https://github.com/youngsuchoi0930/KSL-Project)** | 주민센터 창구용 수어 양방향 통역 AI 어시스턴트 | FE · SQLite 지점 구분 · 배포 · 화면 지연 개선 | `React` `MediaPipe` `WebRTC` `SQLite` `GCP` |
-| 🏠 **[RentGuard](https://github.com/youngsuchoi0930/RentGuard)** | 전세계약 서류를 교차검증해 위험 신호와 확인할 근거를 설명하는 서비스 | 문서 추출 · 교차검증 · 규칙/ML · 평가 | `Next.js` `FastAPI` `PaddleOCR` `scikit-learn` `Gemini` |
-| 🎙️ **[ManualGo](https://github.com/youngsuchoi0930/manualgo)** | 질문을 말하면 근거 페이지와 함께 답하는 가전 매뉴얼 음성 도우미 | 개인 · 설계부터 평가까지 | `FastAPI` `Hybrid RAG` `ONNX Runtime` `ChromaDB` `Azure Speech` |
-
-> 🏆 **수상 범위:** 이스트소프트 KDT 과정 내 최종 프로젝트(Jobiverse)·2차 프로젝트(야구 볼래)에서 각각 **6개 팀 중 1위**를 받았습니다. 각 **6인 팀**으로 참여했으며, 평가 기준은 **기획성·창의성·엔지니어의 가치**입니다. 수상은 팀 전체의 성과입니다.
-
-<details>
-<summary>🔎 프로젝트에서 내가 해결한 문제와 배운 점</summary>
-
-#### 🧑‍💼 Jobiverse — 대화가 이어지려면, 기다림부터 줄여야 했습니다
-
-실제 상담처럼 20~40초 간격으로 요청하니 매 턴 HTTP 연결이 다시 맺어지고 있었습니다. 연결 유지 시간을 조정하고 운영 VM에서 21턴을 재측정해 첫 응답 중앙값 **2,591 → 1,550ms**를 확인했습니다. 코치 프롬프트의 질문·반복 인사 규칙도 평가셋과 함께 다듬었습니다.
-
-**남긴 기준:** 사용자가 읽고 생각하는 시간까지 측정 조건에 포함합니다. 팀 서비스의 Faithfulness **0.967**은 근거 주입 35건 기준이며, 전체 40건은 **0.846**입니다.
-
-[🛠️ 본인 연결 지연 수정](https://github.com/youngsuchoi0930/job_simulator/commit/9eb278967bed2d2328b6fe49a94b0c8f0d017bb8) · [프롬프트 수정](https://github.com/youngsuchoi0930/job_simulator/commit/d26713a0802cb0333d5bcbdb479be9e9b720d1a6) · [작업 과정 ↗](https://youngsu-resume.vercel.app/#jobiverse-process)
-
-#### ⚾ 야구 볼래 — 캐릭터의 표정은 살리고, 무게는 덜어내는 일
-
-새 모델의 재질·리깅·애니메이션을 보존하면서 Draco·WebP를 적용해 **725 → 56.7MB**로 줄였습니다. 10개 구단 스킨과 모션을 구현하고, 모션 전환의 깜빡임과 배트 때문에 치우친 화면 배치를 보정했습니다.
-
-제가 맡은 범위는 React·Capacitor 공통 UI와 3D 캐릭터이며, iOS 전용 화면 보정과 TestFlight 구성은 팀원이 담당했습니다.
-
-**남긴 기준:** 최적화할 때는 유지해야 할 스킨과 움직임부터 정합니다. 파일 용량 감소를 실제 로딩 속도 개선율로 대신 표현하지 않습니다.
-
-[🛠️ 본인 모델·스킨·모션 작업](https://github.com/youngsuchoi0930/KBO_coach/commit/28df586584b5c8f86075173c2b038766a0b1bc8a) · [팀 iOS 구현 범위](https://github.com/youngsuchoi0930/KBO_coach/blob/main/frontend-ios/README.md) · [작업 과정 ↗](https://youngsu-resume.vercel.app/#yagu-process)
-
-#### 🤟 피어나 — 손을 따라오지 못하던 화면을 고쳤습니다
-
-카메라는 60fps인데 손의 윤곽은 6fps였습니다. 검출을 브라우저로 옮긴 뒤에도 배포 환경에 지연이 남아, **로컬 그리기와 서버 전송을 분리**했습니다. 배포 환경의 갱신율은 **30~40fps**로 회복됐습니다.
-
-SQLite에 `branch_id`를 추가해 기존 데이터를 보존하며 지점을 구분하고, 암호화 실패 시 저장을 중단하도록 수정했습니다. **Vercel 프론트·Cloud Run 시그널링·GCP VM 백엔드**의 자동배포도 구성했습니다.
-
-**남긴 기준:** 계산 위치뿐 아니라 화면이 무엇을 기다리는지 확인합니다. 제 담당은 화면·DB·배포·실시간 표시 최적화이며, Top-1 **97.53%**는 팀원이 학습한 모델의 미학습 전문 시연자 평가 결과입니다.
-
-[📄 본인 작성 진단·개선 문서](https://github.com/youngsuchoi0930/KSL-Project/blob/main/docs/랜드마크_지연개선_2026-06-26.md) · [분리 구현 커밋](https://github.com/youngsuchoi0930/KSL-Project/commit/43685675b63adf22dae7f7fc0677e61ec15908fb) · [DB 마이그레이션](https://github.com/youngsuchoi0930/KSL-Project/commit/6d5f4530f1cc2083b45d68443e4e57f58497465e) · [자동배포 구성](https://github.com/youngsuchoi0930/KSL-Project/blob/main/deploy/README.md) · [작업 과정 ↗](https://youngsu-resume.vercel.app/#pierna-process)
-
-#### 🏠 RentGuard — 문서의 근거와 판단의 경계를 함께 남깁니다
-
-PDF 텍스트와 PaddleOCR로 추출한 세 문서의 값을 교차검증하고, 규칙·보증금 분위수 모델의 판단과 Gemini 설명을 분리했습니다. 설명 단계에는 개인정보를 제외한 허용 항목만 전달하고, 근거가 부족하거나 모델 적용 범위를 벗어나면 판단을 보류합니다.
-
-보증금 모델은 현재 보증금을 입력 특성에서 제외하고, 시간순으로 분리한 홀드아웃에서 검증합니다.
-
-**남긴 기준:** 추출값을 사용자가 확인·수정할 수 있게 하고, 문서 근거와 수정 이력을 남깁니다. 2026.09.30 CI에서 **API 테스트 135건 통과·1건 제외**, **합성 문서 30사례·480/480필드 통과**를 확인했으며, 이 결과를 실제 문서나 OCR 전체의 정확도로 해석하지 않습니다.
-
-[📄 구현·검증 범위](https://github.com/youngsuchoi0930/RentGuard/blob/main/README.md) · [위험 판단 정책](https://github.com/youngsuchoi0930/RentGuard/blob/main/docs/risk-policy-v2.md) · [CI 검증 기록](https://github.com/youngsuchoi0930/RentGuard/actions/runs/36686779827)
-
-#### 🎙️ ManualGo — 정답처럼 보이는 숫자를 의심하는 일
-
-문서 표현을 그대로 쓰던 평가 질문을 구어체로 바꾸자, 같은 정답의 200문항에서 제품 선택 R@1이 **0.815 → 0.495**로 떨어졌습니다. 이후 640문항을 튜닝·검증 각 320개로 분리하고, 제품 선택 여부에 따라 검색 구성을 다르게 적용했습니다.
-
-로컬 ONNX 임베딩·리랭커를 구성하고, **6GB GPU 메모리 제약에 맞춰 임베더는 CPU·리랭커는 GPU**로 분리했습니다. 컴포넌트별 실행 장치와 CPU fallback을 구성해 자원 제약에 대응했습니다.
-
-**남긴 기준:** 점수와 함께 평가 질문이 사용자의 말을 닮았는지 확인합니다. 최종 제품 선택 R@5 **0.878**은 재작성된 구어체 질문의 홀드아웃 320문항 기준이며, 실제 사용자 이용 데이터는 아닙니다.
-
-[📄 평가 설계·실험표 (§10·§11)](https://github.com/youngsuchoi0930/manualgo/blob/main/README.md) · [ONNX 실행 장치 구성](https://github.com/youngsuchoi0930/manualgo/blob/main/rag/onnx_runtime.py) · [작업 과정 ↗](https://youngsu-resume.vercel.app/#manualgo-process)
-
-</details>
-
-<details>
-<summary>📂 더 많은 작업 보기</summary>
-
-- **Transformer from scratch** — PyTorch로 어텐션부터 직접 구현
-- **[재활용 분류 앱](https://github.com/youngsuchoi0930/recycle_app)** — MobileNetV2 · TFLite · Flutter 온디바이스 분류기
-- **한국어 TTS / Voice Cloning 탐색** — XTTS-v2 · OpenVoice V2 · MeloTTS 비교
-- **음성 분류 (Dacon)** — MFCC · Mel-spectrogram 기반 오디오 전처리
-
-</details>
-
----
-
-### 🛠️ Tech Stack
-
-프로젝트에서 사용한 기술이며, 담당 범위는 위 표와 작업 기록에 구분했습니다.
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,flask,ts,react,tailwind,threejs,docker,gcp,postgres,mongodb,redis,vercel,githubactions,pytorch,git&perline=8" alt="Tech Stack" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Gemini-4E88F4?style=flat-square&logo=googlegemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure%20Speech-0078D4?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/ElevenLabs-181717?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white" />
-  <img src="https://img.shields.io/badge/ONNX%20Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" />
-  <img src="https://img.shields.io/badge/ChromaDB-FFDE59?style=flat-square&logoColor=black" />
-  <img src="https://img.shields.io/badge/PaddleOCR-0062B0?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
-</p>
-
----
-
-### 🐍 Contribution Snake
-
-<p align="center">
+<p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/youngsuchoi0930/youngsuchoi0930/output/github-snake-dark.svg" />
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/youngsuchoi0930/youngsuchoi0930/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg" />
+    <img src="./assets/profile-header.svg" width="100%" alt="최영수 · AI Application Developer · RAG, Backend, Real-time UI" />
   </picture>
 </p>
 
+**AI 서비스의 병목을 풀고, 선택의 근거를 남깁니다.**
+
+안녕하세요, 최영수입니다. Python·FastAPI와 React로 AI 기능을 사용자의 화면까지 연결합니다.
+기술영업에서 고객의 요청을 실행 조건으로 구체화했던 경험을 바탕으로, 지연의 원인과 검증 조건을 코드 옆에 기록합니다.
+
+<p>
+  <a href="https://youngsu-resume.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-6554C0?style=for-the-badge" alt="포트폴리오 보기" /></a>
+  <a href="https://youngsu-resume.vercel.app/choi-youngsu-resume.pdf?v=20261008-github-sync"><img src="https://img.shields.io/badge/RESUME-30363D?style=for-the-badge" alt="이력서 PDF 다운로드" /></a>
+  <a href="mailto:y1692543@gmail.com"><img src="https://img.shields.io/badge/CONTACT-30363D?style=for-the-badge" alt="이메일 y1692543@gmail.com" /></a>
+</p>
+
+## 함께 만든 서비스
+
+### 01 · [Jobiverse](https://github.com/youngsuchoi0930/job_simulator)
+
+**사용자가 생각하는 시간까지, 응답 지연의 조건에 넣었습니다.**
+
+AI 아바타 상담과 직무 체험을 연결한 6인 팀 프로젝트입니다.
+코치·NPC 프롬프트, 미니게임, RAG 지식베이스와 추천 보정을 담당했습니다.
+
+- 상담처럼 **20~40초 간격**으로 요청할 때 HTTP 연결이 다시 맺어지는 원인을 찾고, 연결 유지 시간을 5초에서 300초로 조정했습니다.
+- 운영 VM **21턴 재측정**에서 첫 응답 p50 **2,591 → 1,550ms**, 임베딩 **1,262 → 343ms**를 확인했습니다.
+
+`Python` `FastAPI` `pgvector` `React` `Gemini`
+
+[시연 영상](https://www.youtube.com/watch?v=NnnkidKIjAQ) · [개선 커밋](https://github.com/youngsuchoi0930/job_simulator/commit/9eb278967bed2d2328b6fe49a94b0c8f0d017bb8) · [측정 기록](https://github.com/youngsuchoi0930/job_simulator/blob/main/docs/evaluation/평가지표_결과보고서_v2.md)
+
+### 02 · [야구 볼래](https://github.com/youngsuchoi0930/KBO_coach)
+
+**캐릭터의 움직임을 살리면서, 모델의 무게를 줄였습니다.**
+
+구단별 챗봇과 3D 캐릭터로 야구 입문을 돕는 6인 팀 프로젝트입니다.
+React·Capacitor 공통 UI, 디자인, 3D 캐릭터를 담당했습니다.
+
+- 재질·리깅·애니메이션을 보존하며 Draco·WebP를 적용해 **725 → 56.7MB**로 경량화하고, **10개 구단 스킨**을 연결했습니다.
+- 모션 전환의 깜빡임은 크로스페이드로 줄이고, 배트를 제외한 몸통 기준으로 캐릭터 중심을 보정했습니다.
+
+`TypeScript` `React` `Capacitor` `three.js` `Draco` `WebP`
+
+[시연 영상](https://youtu.be/63MPROcGLFI) · [모델·스킨·모션 작업](https://github.com/youngsuchoi0930/KBO_coach/commit/28df586584b5c8f86075173c2b038766a0b1bc8a) · [중심 보정](https://github.com/youngsuchoi0930/KBO_coach/commit/6cd4a4a038f8f27ad03cd32b2ea68c43864d10c2)
+
+<sub>수치는 모델 파일 용량입니다. iOS 전용 화면 보정과 TestFlight 구성은 팀원이 담당했습니다.</sub>
+
+### 03 · [피어나](https://github.com/youngsuchoi0930/KSL-Project)
+
+**손을 따라오지 못하던 화면에서, 기다리는 경로를 분리했습니다.**
+
+주민센터의 수어·음성 소통을 돕는 4인 팀 프로젝트입니다.
+키오스크·상담원 UI, DB 변경, 배포와 실환경 최적화를 담당했습니다.
+
+- 손 검출을 브라우저로 옮긴 뒤에도 남은 지연을 추적해, **화면 그리기와 서버 전송을 분리**했습니다.
+- 배포 환경에서 손 좌표 화면 갱신율을 **6 → 30~40fps**로 개선했습니다.
+- 기존 데이터를 보존하는 지점 식별자 마이그레이션과 암호화 실패 시 저장 중단을 구현하고, Vercel·Cloud Run 시그널링·GCP VM의 자동배포를 구성했습니다.
+
+`TypeScript` `React` `MediaPipe` `Flask` `SQLite` `WebRTC` `GCP`
+
+[진단·개선 기록](https://github.com/youngsuchoi0930/KSL-Project/blob/main/docs/랜드마크_지연개선_2026-06-26.md) · [그리기·전송 분리](https://github.com/youngsuchoi0930/KSL-Project/commit/43685675b63adf22dae7f7fc0677e61ec15908fb) · [배포 구성](https://github.com/youngsuchoi0930/KSL-Project/blob/main/deploy/README.md)
+
+<sub>화면 갱신율 기준입니다. 모델 학습과 인식 정확도 평가는 팀원이 담당했습니다.</sub>
+
+> **팀으로 만든 성과** — Jobiverse와 야구 볼래는 이스트소프트 KDT 과정에서 각각 **6개 팀 중 1위**로 대상을 받았습니다. 각 6인 팀으로 참여했으며 평가 기준은 기획성·창의성·엔지니어의 가치입니다.
+
+## AI 문서·검색 실험
+
+### 04 · [RentGuard](https://github.com/youngsuchoi0930/RentGuard)
+
+**문서의 값과 모델의 설명 사이에, 확인할 근거를 남깁니다.**
+
+등기부·건축물대장·임대차계약서의 PDF 텍스트와 PaddleOCR 추출 결과를 교차검증합니다.
+규칙·보증금 분위수 모델의 판단과 Gemini 설명을 나누고, 전송 정보 제한·출력 검증·실패 시 대체 응답을 구현했습니다.
+
+- 보증금 모델은 현재 제안 보증금을 입력에서 제외하고, **시간순 학습·보정·홀드아웃**으로 평가합니다.
+- **2026.10.12 CI:** API 테스트 **137개 통과·1개 제외**, 합성 문서 **30사례·480필드** 회귀검증 통과와 웹 빌드를 확인했습니다.
+
+`Python` `FastAPI` `Next.js` `PaddleOCR` `scikit-learn` `Gemini`
+
+[LLM 설명 제어](https://github.com/youngsuchoi0930/RentGuard/blob/main/apps/api/app/services/llm_explainer.py) · [모델 학습·평가](https://github.com/youngsuchoi0930/RentGuard/blob/main/scripts/train_deposit_quantile.py) · [CI 실행 기록](https://github.com/youngsuchoi0930/RentGuard/actions/runs/38234381249)
+
+<sub>CI 수치는 해당 합성 문서와 테스트의 검증 결과입니다. 실제 계약 문서 전반의 정확도나 사기 탐지 성능을 뜻하지 않습니다.</sub>
+
+### 05 · [ManualGo](https://github.com/youngsuchoi0930/manualgo)
+
+**좋은 검색 점수가, 좋은 평가 질문에서 나왔는지 확인했습니다.**
+
+기기를 다루면서 음성으로 질문하면 매뉴얼의 근거 페이지와 함께 답하는 개인 프로젝트입니다.
+96종 매뉴얼의 수집·파싱부터 검색, 음성 응답, 출처 UI와 평가까지 구현했습니다.
+
+- 정답을 유지하고 질문만 구어체로 바꾼 **200문항**에서 제품 선택 R@1이 **0.815 → 0.495**로 떨어져 평가셋의 표현 편향을 확인했습니다.
+- 재작성한 **640문항**을 구성 선택·검증 각 320개로 분리하고 검색 경로를 조정해, **홀드아웃 320문항 R@5 0.878**을 확인했습니다.
+- 로컬 ONNX 임베딩·리랭커를 구성하고, **6GB GPU 메모리 제약**에 맞춰 컴포넌트별 CPU·GPU 실행 장치를 분리했습니다.
+
+`Python` `FastAPI` `ChromaDB` `ONNX Runtime` `Azure Speech`
+
+[평가 설계·실험표](https://github.com/youngsuchoi0930/manualgo/blob/main/README.md) · [튜닝·홀드아웃 평가 코드](https://github.com/youngsuchoi0930/manualgo/blob/main/evaluation/tune_report.py) · [ONNX 실행 구성](https://github.com/youngsuchoi0930/manualgo/blob/main/rag/onnx_runtime.py)
+
+<sub>200문항의 표현 변경 실험과 320문항 홀드아웃은 별도 평가입니다. 질문은 구어체 재작성 자료이며 실제 사용자 이용 데이터는 아닙니다.</sub>
+
+## 자주 쓰는 도구
+
+| 작업 | 사용 기술 |
+| :--- | :--- |
+| AI · 검색 · 문서 처리 | `ONNX Runtime` `scikit-learn` `PaddleOCR` `ChromaDB` `pgvector` |
+| API · 데이터 | `Python` `FastAPI` `Flask` `PostgreSQL` `SQLite` |
+| 화면 · 실시간 상호작용 | `TypeScript` `React` `Next.js` `Capacitor` `three.js` `WebRTC` |
+| 배포 · 검증 | `Docker` `GCP` `Vercel` `GitHub Actions` `pytest` |
+
+<details>
+<summary><b>개발을 시작하기 전의 경험</b></summary>
+
+<br />
+
+**대성씨앤에스(주) · 기술영업 · 2023.03–2025.10**
+
+2년 7개월 동안 고객 요구 분석, 사양 제안, 견적·수주, 납품·사후관리를 맡았습니다.
+고객이 원하는 결과를 실행 가능한 조건으로 바꾸는 경험을 개발에서도 이어가고 있습니다.
+
+**이스트소프트 KDT AI 휴먼과정 · 2026.03–2026.07 수료**
+
+프로젝트에서 AI 기능을 API·화면·배포로 연결하고, 해결 전후를 측정하는 경험을 쌓았습니다.
+
+</details>
+
+<details>
+<summary><b>Contribution snake</b></summary>
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/youngsuchoi0930/youngsuchoi0930/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/youngsuchoi0930/youngsuchoi0930/output/github-snake.svg" width="100%" alt="GitHub contribution snake" />
+  </picture>
+</p>
+
+</details>
+
 ---
 
-### 🌱 Now Building
+**설계 선택이나 개선 과정을 함께 이야기하고 싶다면:** [y1692543@gmail.com](mailto:y1692543@gmail.com)
 
-```python
-now_building = [
-    "RentGuard — 계약 서류 추출·교차검증과 근거 기반 설명",
-    "규칙·ML 판단과 LLM 설명의 역할 분리",
-    "합성 문서와 OCR을 분리한 회귀 검증",
-]
-```
-
----
-
-### 📫 Connect with Me
-
-<p align="center">
-  <a href="https://youngsu-resume.vercel.app">
-    <img src="https://img.shields.io/badge/Resume-9184d9?style=for-the-badge&logoColor=white" />
-  </a>
-  <a href="mailto:y1692543@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/youngsuchoi0930">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
-
-<p align="center">
-  📧 <code>y1692543@gmail.com</code> · 📍 Seoul
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9184d9,100:161826&height=110&section=footer" alt="footer" />
-</p>
+[포트폴리오](https://youngsu-resume.vercel.app) · [모든 저장소](https://github.com/youngsuchoi0930?tab=repositories)

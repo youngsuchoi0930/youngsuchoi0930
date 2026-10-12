@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-labelledby="title desc">
+  <title id="title">최영수 · AI Application Developer</title>
+  <desc id="desc">요구를 구현하고 결과를 검증하는 개발자. RAG, Backend, Real-time UI.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#34334f" stroke-opacity=".32"/></pattern>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#a99aea" stroke-width="1.2"/></marker>
+  </defs>
+  <rect x=".5" y=".5" width="959" height="219" rx="16" fill="#161826" stroke="#34334f"/>
+  <rect x="528" y="1" width="431" height="218" rx="16" fill="url(#grid)"/>
+  <path d="M32 35H46M32 35V49" fill="none" stroke="#a99aea" stroke-width="3"/>
+  <text x="60" y="39" fill="#b2abc8" font-family="ui-monospace,Consolas,monospace" font-size="11" letter-spacing="2">YOUNGSU.CHOI / ENGINEERING</text>
+  <text x="32" y="104" fill="#f1efff" font-family="'Malgun Gothic','Noto Sans KR',sans-serif" font-size="52" font-weight="700" letter-spacing="-2">최영수</text>
+  <text x="32" y="143" fill="#a99aea" font-family="Arial,sans-serif" font-size="22" font-weight="600" letter-spacing=".5">AI Application Developer</text>
+  <text x="32" y="190" fill="#b2abc8" font-family="ui-monospace,Consolas,monospace" font-size="12" letter-spacing=".6">RAG / BACKEND / REAL-TIME UI</text>
+  <path d="M506 46V177" stroke="#34334f"/>
+  <text x="550" y="56" fill="#b2abc8" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="2">FROM REQUIREMENTS TO EVIDENCE</text>
+  <g font-family="ui-monospace,Consolas,monospace">
+    <rect x="550" y="82" width="107" height="67" rx="9" fill="#222437" stroke="#34334f"/>
+    <text x="567" y="108" fill="#f1efff" font-size="15" font-weight="700">INPUT</text>
+    <text x="567" y="130" fill="#b2abc8" font-size="10">requirements</text>
+    <path d="M662 116H684" fill="none" stroke="#a99aea" marker-end="url(#arrow)"/>
+    <rect x="693" y="82" width="107" height="67" rx="9" fill="#29283d" stroke="#a99aea"/>
+    <text x="711" y="108" fill="#a99aea" font-size="15" font-weight="700">BUILD</text>
+    <text x="711" y="130" fill="#b2abc8" font-size="10">AI / API / UI</text>
+    <path d="M805 116H827" fill="none" stroke="#a99aea" marker-end="url(#arrow)"/>
+    <rect x="836" y="82" width="94" height="67" rx="9" fill="#222437" stroke="#34334f"/>
+    <text x="850" y="108" fill="#f1efff" font-size="15" font-weight="700">VERIFY</text>
+    <text x="850" y="130" fill="#b2abc8" font-size="10">measure</text>
+  </g>
+  <circle cx="554" cy="185" r="3" fill="#a99aea"/>
+  <text x="568" y="189" fill="#b2abc8" font-family="ui-monospace,Consolas,monospace" font-size="11">trace the cause. record the choice.</text>
+</svg>
